@@ -1,0 +1,15 @@
+[package]
+name = "enum-str-derive"
+version = "0.1.0"
+authors = ["enzi <enzi@braindead.io>"]
+edition = "2021"
+license = "MIT"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+convert_case = "0.6.0"
+proc-macro2 = "1.0.56"
+quote = "1.0.26"
+syn = { version = "1.0.107", features = ["extra-traits"] }
