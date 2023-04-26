@@ -10,3 +10,15 @@ A crate to serialize/deserialize enums into/from a string.
 ## Documentation
 
 - [API Documentation](https://crates.io/crates/enum-str-derive)
+
+## Implementation
+
+```rust
+#[derive(Clone, Copy, Debug, EnumStr)]
+pub enum ChannelTypeShortcode {
+  #[enum_str(string = "t")]
+  Text,
+  #[enum_str(string = "w")]
+  Theater,
+}
+```
