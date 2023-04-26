@@ -7,6 +7,8 @@
 
 A crate to serialize/deserialize enums into/from a string.
 
+Converts enums to a string when using [serde] and [postgres].
+
 ## Documentation
 
 - [API Documentation](https://crates.io/crates/enum-str-derive)
@@ -16,9 +18,11 @@ A crate to serialize/deserialize enums into/from a string.
 ```rust
 #[derive(Clone, Copy, Debug, EnumStr)]
 pub enum ChannelTypeShortcode {
-  #[enum_str(string = "t")]
-  Text,
+  Text, // TEXT
   #[enum_str(string = "w")]
-  Theater,
+  Theater, // w
 }
 ```
+
+[serde]: https://crates.io/crates/serde
+[postgres]: https://crates.io/crates/postgres
