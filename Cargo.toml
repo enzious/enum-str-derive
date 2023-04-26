@@ -1,8 +1,8 @@
 [package]
 name = "enum-str-derive"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["enzi <enzi@braindead.io>"]
-keywords = ["enum", "macro", "string", "serde", "serialization", "postgres"]
+keywords = ["enum", "macro", "string", "serde", "postgres"]
 description = "A crate to serialize/deserialize enums into/from a string."
 edition = "2021"
 license = "MIT"
