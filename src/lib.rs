@@ -11,7 +11,7 @@
 //!
 //! ## Documentation
 //!
-//! - [API Documentation](https://crates.io/crates/enum-str-derive)
+//! - [API Documentation](https://docs.rs/enum-str-derive)
 //!
 //! ## Implementation
 //!

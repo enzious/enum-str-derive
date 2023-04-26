@@ -11,7 +11,7 @@ Converts enums to a string when using [serde] and [postgres].
 
 ## Documentation
 
-- [API Documentation](https://crates.io/crates/enum-str-derive)
+- [API Documentation](https://docs.rs/enum-str-derive)
 
 ## Implementation
 
